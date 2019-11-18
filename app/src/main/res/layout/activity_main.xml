@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/netPara"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#A6F4CF49"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="@string/money_amount"
+            android:textColor="#2F2929"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/toplamGelirler"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/netPara"
+            android:background="@drawable/button_shape"
+            android:layout_margin="10dp"
+            android:backgroundTint="#A699F08B"
+            android:gravity="center"
+            android:text="@string/incomes"
+            android:textColor="#2F2929"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/toplamGiderler"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/toplamGelirler"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#A6FB7E7E"
+            android:gravity="center"
+            android:text="@string/expenses"
+            android:layout_margin="10dp"
+            android:textColor="#2F2929"
+            android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/butcemiGoster"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toplamGiderler"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="@string/butcemi_goster"
+        android:textAllCaps="false"
+        android:textColor="#2F2929"
+        android:textSize="28sp" />
+
+</RelativeLayout>

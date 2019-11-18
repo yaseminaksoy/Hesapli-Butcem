@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFFFFFF"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/income_background">
+
+            <TextView
+                android:id="@+id/txtGiderEkle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="Gider Ekle"
+                android:textColor="#FF2F2929"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/txtGiderAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad:"
+                android:layout_below="@id/txtGiderEkle"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FF2F2929"
+                android:textSize="35sp" />
+
+            <EditText
+                android:id="@+id/editGiderAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/gider_adini_giriniz"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_below="@id/txtGiderEkle"
+
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtGiderTarih"
+                android:layout_below="@id/txtGiderAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:text="Tarih:"
+                android:textColor="#FF2F2929"
+                android:textSize="35sp" />
+
+
+            <EditText
+                android:id="@+id/editGiderTarih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/txtGiderAd"
+                android:hint="gg/aa/yy"/>
+
+            <TextView
+                android:id="@+id/txtGiderTutar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutar:"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/txtGiderTarih"
+                android:textColor="#FF2F2929"
+                android:layout_marginLeft="50dp"
+                android:textSize="35sp"/>
+
+            <EditText
+                android:id="@+id/editGiderTutar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/txtGiderTarih"
+                android:layout_marginLeft="150dp"
+                android:hint="@string/tutar_giriniz"/>
+
+            <Button
+                android:id="@+id/giderKaydet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/btngelirekle"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txtGiderTutar"
+                android:text="Kaydet"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFFFF"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

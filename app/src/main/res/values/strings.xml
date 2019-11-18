@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">hesapliButcem</string>
+    <string name="money_amount">Net Paranız : %1$s TRY</string>
+    <string name="incomes">Toplam Gelirler: %1$s TRY</string>
+    <string name="expenses">Toplam Giderler: %1$s TRY</string>
+    <string name="butcemi_goster">Butcemi Goster</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gelirAdi">Gelir adını giriniz</string>
+    <string name="tutar_giriniz">Tutar giriniz</string>
+    <string name="gider_adini_giriniz">Gider adini giriniz</string>
+
+</resources>
